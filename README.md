@@ -1,6 +1,6 @@
 # Get Tezos Balance
 
-This app uses free [Taquito ](https://tezostaquito.io/) for getting tezos balnces.
+This app uses free [Taquito ](https://tezostaquito.io/) lib for getting tezos balnces.
 
 ## Getting started
 
