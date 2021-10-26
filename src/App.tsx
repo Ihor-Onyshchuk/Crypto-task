@@ -93,8 +93,7 @@ const App: React.FC = () => {
             </tr>
           </thead>
           <tbody>
-            {balances && Object.keys(balances).map(addressKey => {
-            return (
+            {balances && Object.keys(balances).map(addressKey => (
               <tr key={addressKey}>
                 <td>
                   <span title={addressKey}>{addressKey}</span>
@@ -109,8 +108,7 @@ const App: React.FC = () => {
                   </button>
                 </td>
               </tr>
-            )
-          } )}
+            ))}
           </tbody>
         </table>
       </div>
